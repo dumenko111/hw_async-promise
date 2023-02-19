@@ -25,22 +25,12 @@ img {
   height: auto;
 }
 
-.timer {
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  color: #212121;
-  border-radius: 2px;
+ul {
+  list-style: none;
+  font-size: 20px;
 }
 
-.clockface {
-  margin-bottom: 15px;
-  font-family: 'Roboto Mono', monospace;
-  font-size: 80px;
-  margin-top: 0;
-  margin-bottom: 24px;
-}
-
+/*task1*/
 .btn {
   display: inline-flex;
   text-transform: uppercase;
@@ -58,12 +48,27 @@ img {
   left: 50%;
   transform: translate(-50%);
 }
+/***************************/
 
-/* .btn.disabled {
-  background-color: silver;
-} */
 
-ul {
-  list-style: none;
+
+/***********Task2**********/
+.timer {
+  display: flex;
+  color: #ffffff;
+  background-color: rgb(78, 78, 78);
+  font-family: 'Roboto Mono', monospace;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
   font-size: 20px;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%);
+  border-radius: 15px;
 }
+
+.field {
+  margin: 20px;
+  text-align: center;
+}
+
